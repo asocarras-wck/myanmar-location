@@ -27,7 +27,7 @@
                     Response:
                     <ul>
                         <li>200 OK: Returns a JSON object containing a list of locations.</li>
-                        <li>404 Not Found: If no locations match the specified postal code.</li>
+                        <li>404 Not Found: If no locations match the specified criteria.</li>
                     </ul>
                 </li>
             </ul>
