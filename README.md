@@ -7,11 +7,11 @@
     <h2>Endpoints</h2>
     <ol>
         <li>
-            <strong>Get all locations</strong>
+            <strong>Get Locations</strong>
             <ul>
                 <li>URL: /api/locations</li>
                 <li>Method: GET</li>
-                <li>Description: Retrieves data for all village and ward-level locations.</li>
+                <li>Description: Retrieves a list of village and ward-level locations.</li>
                 <li>
                     Parameters:
                     <ul>
@@ -127,7 +127,7 @@
             <ul>
                 <li>URL: /api/locations/villagetracttowns</li>
                 <li>Method: GET</li>
-                <li>Description: Retrieves a list of villagetracttowns.</li>
+                <li>Description: Retrieves a list of village tract/towns.</li>
                 <li>
                     Parameters:
                     <ul>
