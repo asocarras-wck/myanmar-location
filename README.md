@@ -2,7 +2,7 @@
     <div>
         This is a simple RESTful API project that provides functionality for retrieving Myanmar location data, including village/ward, village tract/town, township, district, and state/region information.
         Additionally, it offers features for finding the nearest location within the dataset and calculating the distance between two geographic locations.
-        The dataset is sourced from the <a href='https://themimu.info/place-codes'>Myanmar Information Management Unit (MIMU)</a>, with data stored in a CSV file serving as the database.
+        The dataset is sourced from the <a href='https://themimu.info/place-codes'>Myanmar Information Management Unit (MIMU)</a>, with data stored in CSV files serving as the database.
     </div>    
     <h2>Endpoints</h2>
     <ol>
