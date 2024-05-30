@@ -2,7 +2,7 @@ import json
 from math import radians, sin, cos, acos, asin, sqrt
 import csv
 import os
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 app = Flask(__name__)
 
 # https://en.wikipedia.org/wiki/Haversine_formula
@@ -13,12 +13,6 @@ radius_ml = 3958.7613
 
 # arithmetic mean radius of Earth in km
 radius_km = 6371.0088
-
-# Get the current directory
-current_dir = os.getcwd()
-    
-# Join Location file path
-file_path = os.path.join(current_dir, 'myanmar_location\\mimu9.4.csv')
 
 def calculate_distance(location1, location2):     
     lat1 = radians(location1[0])
@@ -40,23 +34,24 @@ def remove_fields(dictionary, fields_to_remove):
 def get_nearest_location(location):
     nearest_distance_ml = nearest_distance_km = 0
     nearest_location = None    
-    csv_reader = read_file()   
+    data = read_file()   
     count = -1
-    # Loop through the rows and calculate distance
-    for row in csv_reader:
+    # Loop through the rows and calculate the distance
+    for row in data:
         count = count + 1
 
         # Skip if the location is INACTIVE or has no coordinates
         if row["IsActive"] == 0 or row["Longitude"] == '' or row["Latitude"] == '':
             continue
 
-        # Get latitude/longitude from the file
+        # Convert latitude/longitude to float
         longitude = float(row["Longitude"])
         latitude = float(row["Latitude"])
 
-        # Construct the UPDATE query
+        # Calculate the distance
         distance_ml, distance_km = calculate_distance(location, [latitude, longitude])  
-                
+         
+        # Compare the new and previous calculated distances and insert the shorter location into nearest_location. 
         if nearest_distance_ml == 0 or nearest_distance_ml > distance_ml:
             nearest_location = row
             nearest_distance_ml = distance_ml
@@ -66,14 +61,21 @@ def get_nearest_location(location):
     nearest_location['DistanceInKM'] = nearest_distance_km
     nearest_location['DistanceInMile'] = nearest_distance_ml
     
-    # Remove unnecessary data points
+    # Remove unimportant data points
     # remove_fields(nearest_location, ["Source","StartDate","ModifiedEndDate","Notification","NotificationModified","GADVillageStatus",
     #                     "FieldVillageStatus","MIMUVillageMappingStatus","ChangeType","MIMURemarks","Type","Remarks","IsActive"])
     
     print(nearest_location)
     return nearest_location
         
-def read_file():
+def read_file(file_name = 'mimu9.4.csv'):
+    # Get the current directory
+    current_dir = os.getcwd()
+    
+    # Join Location file path
+    file_path = os.path.join(current_dir, file_name)
+    
+    # read the file
     with open(file_path, 'r', encoding = "utf8") as file:   
         csv_reader = csv.DictReader(file)  
         data = list(csv_reader)
@@ -87,8 +89,12 @@ def slice_data(data, page_number, page_size):
     # Calculate the number of pages in the dataset
     total_pages = (len(data) + page_size - 1) // page_size
     
-    # Set the max page number if page_number is greater than total pages
-    page_number = total_pages if page_number > total_pages else page_number   
+    # Set the last page number if page_number is greater than total pages
+    # page_number = total_pages if page_number > total_pages else page_number   
+
+    # Return an empty list if page_number is greater than the last page number.
+    if page_number > total_pages:
+        return [] 
         
     # Calculate start and end indices for the current page
     start_index = (page_number - 1) * page_size
@@ -100,50 +106,93 @@ def slice_data(data, page_number, page_size):
     return result    
     
 # Define routes
+# All locations
 @app.route('/api/locations', methods=['GET'])
 def get_locations():    
+    stateregion = request.args.get('stateregion')
+    district = request.args.get('district')
+    township = request.args.get('township')
+    villagetracttown = request.args.get('villagetracttown')
     locations = read_file()
+    if stateregion:
+        locations = [l for l in locations if l["StateRegion"].lower() == stateregion.lower().strip()]
+    elif district:
+        locations = [l for l in locations if l["District"].lower() == district.lower().strip()]
+    elif township:
+        locations = [l for l in locations if l["Township"].lower() == township.lower().strip()]
+    elif villagetracttown:
+        locations = [l for l in locations if l["VillageTractTown"].lower() == villagetracttown.lower().strip()]
+        
     result = slice_data(locations, request.args.get('page_number'), request.args.get('page_size'))
-    return jsonify(result)
+    if result:
+        return jsonify({"locations":result})
+    else:
+        return jsonify({'message': 'Locations not found.'}), 404
 
+# Location by PCode
 @app.route('/api/locations/<string:pcode>', methods=['GET'])
 def get_location(pcode):
     locations = read_file()
-    location = next((location for location in locations if location['VillagePCode'] == pcode), None)
+    location = next((location for location in locations if location['LocationPCode'] == pcode), None)
     if location:
         return jsonify({"location":location})
     else:
-        return jsonify({'message': 'Location not found'}), 404    
+        return jsonify({'message': 'Location not found.'}), 404    
+ 
+# Get State/Regions
+@app.route('/api/locations/stateregions', methods=['GET'])
+def get_stateregions():    
+    stateregions = read_file('mimu_stateregion.csv')
+    stateregion = request.args.get('stateregion')
+    if stateregion:
+        stateregions = [s for s in stateregions if s["StateRegion"].lower() == stateregion.lower().strip()]
+    result = slice_data(stateregions, request.args.get('page_number'), request.args.get('page_size'))    
+    if result:
+        return jsonify({"stateregions":result})
+    else:
+        return jsonify({'message': 'State/regions not found.'}), 404
+    
+# Get Districts    
+@app.route('/api/locations/districts', methods=['GET'])
+def get_districts():    
+    districts = read_file('mimu_district.csv')
+    district = request.args.get('district')
+    if district:
+        districts = [t for t in districts if t["District"].lower() == district.lower().strip()]
+    result = slice_data(districts, request.args.get('page_number'), request.args.get('page_size'))    
+    if result:
+        return jsonify({"districts":result})
+    else:
+        return jsonify({'message': 'Districts not found.'}), 404
 
-@app.route('/api/locations/stateregions/<string:stateregion>', methods=['GET'])
-def get_location_by_stateregion(stateregion):
-    locations = read_file()
-    match_locations = []
-    for location in locations:
-        if location['StateRegion'].lower() == stateregion.lower():
-            match_locations.append(location)
-            
-    result = slice_data(match_locations, request.args.get('page_number'), request.args.get('page_size'))
+# Get Townships    
+@app.route('/api/locations/townships', methods=['GET'])
+def get_townships(): 
+    townships = read_file('mimu_township.csv')
+    township = request.args.get('township')
+    if township:
+        townships = [t for t in townships if t["Township"].lower() == township.lower().strip()]
+    result = slice_data(townships, request.args.get('page_number'), request.args.get('page_size'))    
     if result:
-        return jsonify({"locations":result})
+        return jsonify({"townships":result})
     else:
-        return jsonify({'message': 'Location not found'}), 404   
-    
-@app.route('/api/locations/townships/<string:township>', methods=['GET'])
-def get_locations_by_township(township):    
-    locations = read_file()
-    match_locations = []
-    for location in locations:
-        if location['Township'].lower() == township.lower():
-            match_locations.append(location)
-            
-    result = slice_data(match_locations, request.args.get('page_number'), request.args.get('page_size'))
+        return jsonify({'message': 'Townships not found.'}), 404
+  
+# Get VillageTract/Towns    
+@app.route('/api/locations/villagetracttowns', methods=['GET'])
+def get_villagetracts():    
+    villagetracttowns = read_file('mimu_villagetract.csv')
+    villagetracttown = request.args.get('villagetracttown')
+    if villagetracttown:
+        villagetracttowns = [v for v in villagetracttowns if v["VillageTractTown"].lower() == villagetracttown.lower().strip()]
+    result = slice_data(villagetracttowns, request.args.get('page_number'), request.args.get('page_size'))    
     if result:
-        return jsonify({"locations":result})
+        return jsonify({"villagetracttowns":result})
     else:
-        return jsonify({'message': 'Location not found'}), 404
-    
-@app.route('/api/nearest-location', methods=['GET'])
+        return jsonify({'message': 'Village tracts or towns not found.'}), 404
+ 
+# Get Nearest Location in the location dataset
+@app.route('/api/locations/nearest-location', methods=['GET'])
 def nearest_location():
     latitude = float(request.args.get('latitude'))
     longitude = float(request.args.get('longitude'))
@@ -151,8 +200,9 @@ def nearest_location():
     if location:
         return jsonify({"NearestLocation":location})
     else:
-        return jsonify({'message': 'Location not found'}), 404
+        return jsonify({'message': 'Location not found.'}), 404
 
+# Calculate the distance between two locations
 @app.route('/api/calculate-distance', methods=['GET'])
 def get_distance():
     latitude1 = float(request.args.get('latitude1'))
@@ -165,80 +215,10 @@ def get_distance():
     except ValueError as e:
         print(e)
         return jsonify({'message': e}), 400
+    except Exception as e:
+        print(e)
+        return jsonify({'message': e}), 400
 
-@app.route('/')
-def hello():
-    return """
-        <h1>Myanmar Locations API</h1>
-        <div>This is a simple Flask-based RESTful API project that provides functionality for retrieving village and ward-level locations in Myanmar, 
-        finding the nearest location within the dataset, and additionally, calculating the distance between two locations. 
-        The dataset is sourced from the <a href='https://themimu.info/place-codes'>Myanmar Information Management Unit (MIMU)</a>, with data stored in a CSV file serving as the database.</div>
-        <h2>Endpoints</h2>
-        <ol>       
-    <li>
-	<strong>Get all locations</strong>
-	<ul>
-            <li>URL: /api/locations</li>
-            <li>Method: GET</li>
-            <li>Description: Retrieves data for all locations.</li>
-        </ul>
-    </li>
-    <li>       
-        <strong>Get location by postal code</strong>
-	<ul>
-            <li>URL: /api/locations/pcode</li>
-            <li>Method: GET</li>
-            <li>Description: Retrieves location data for the specified postal code.</li>
-        </ul>
-    </li>
-    <li>
-        <strong>Get locations by state/region</strong>
-	<ul>
-            <li>URL: /api/locations/stateregions/&lt;stateregion&gt;</li>
-            <li>Method: GET</li>
-            <li>Description: Retrieves location data for the specified state or region.</li>
-        </ul>
-    </li>
-    <li>
-        <strong>Get locations by township</strong>
-	<ul>
-            <li>URL: /api/locations/townships/&lt;stateregion&gt;</li>
-            <li>Method: GET</li>
-            <li>Description: Retrieves location data for the specified township.</li>
-        </ul>
-    </li>    
-     <li>        
-        <strong>Calculate distance between two locations</strong>
-	<ul>
-            <li>URL: /api/calculate-distance</li>
-            <li>Method: GET</li>
-            <li>Description: Calculates the distance between two locations specified by latitude and longitude.</li>
-            <li>Parameters:
-                <ul>
-                    <li>latitude1: Latitude of the first location.</li>
-                    <li>longitude1: Longitude of the first location.</li>
-                    <li>latitude2: Latitude of the second location.</li>
-                    <li>longitude2: Longitude of the second location.</li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <strong>Get nearest location from the dataset</strong>
-	<ul>            
-            <li>URL: /api/nearest-location</li>
-            <li>Method: GET</li>
-            <li>Description: Retrieves the nearest location from the dataset based on the specified latitude and longitude.</li>
-            <li>Parameters:
-                <ul>
-		    <li>latitude: Latitude of the reference location.</li>
-                    <li>longitude: Longitude of the reference location.</li>                    
-                </ul>
-            </li>
-        </ul>
-    </li>
-</ol>
-    """
 
 if __name__ == '__main__':    
     app.run(port=5000)

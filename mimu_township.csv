@@ -1,0 +1,360 @@
+StateRegionPCode,StateRegion,StateRegionMM,DistrictPCode,District,DistrictMM,TownshipPCode,Township,TownshipMM,TotalVillageTractTowns,TotalVillageWards
+MMR001,Kachin,ကချင်,MMR001D001,Myitkyina,မြစ်ကြီးနား,MMR001001,Myitkyina,မြစ်ကြီးနား,32,107
+MMR001,Kachin,ကချင်,MMR001D001,Myitkyina,မြစ်ကြီးနား,MMR001002,Waingmaw,ဝိုင်းမော်,43,276
+MMR001,Kachin,ကချင်,MMR001D001,Myitkyina,မြစ်ကြီးနား,MMR001003,Injangyang,အင်ဂျန်းယန်,64,371
+MMR001,Kachin,ကချင်,MMR001D001,Myitkyina,မြစ်ကြီးနား,MMR001004,Tanai,တနိုင်း,19,83
+MMR001,Kachin,ကချင်,MMR001D001,Myitkyina,မြစ်ကြီးနား,MMR001005,Chipwi,ချီ​ဖွေ,44,160
+MMR001,Kachin,ကချင်,MMR001D001,Myitkyina,မြစ်ကြီးနား,MMR001006,Tsawlaw,ဆော့လော်,26,145
+MMR001,Kachin,ကချင်,MMR001D002,Mohnyin,မိုးညှင်း,MMR001007,Mohnyin,မိုးညှင်း,43,182
+MMR001,Kachin,ကချင်,MMR001D002,Mohnyin,မိုးညှင်း,MMR001008,Mogaung,မိုးကောင်း,43,118
+MMR001,Kachin,ကချင်,MMR001D002,Mohnyin,မိုးညှင်း,MMR001009,Hpakant,ဖားကန့်,17,122
+MMR001,Kachin,ကချင်,MMR001D003,Bhamo,ဗန်းမော်,MMR001010,Bhamo,ဗန်းမော်,46,108
+MMR001,Kachin,ကချင်,MMR001D003,Bhamo,ဗန်းမော်,MMR001011,Shwegu,ရွှေကူ,39,118
+MMR001,Kachin,ကချင်,MMR001D003,Bhamo,ဗန်းမော်,MMR001012,Momauk,မိုးမောက်,56,320
+MMR001,Kachin,ကချင်,MMR001D003,Bhamo,ဗန်းမော်,MMR001013,Mansi,မံစီ,41,329
+MMR001,Kachin,ကချင်,MMR001D004,Puta-O,ပူတာအို,MMR001014,Puta-O,ပူတာအို,15,139
+MMR001,Kachin,ကချင်,MMR001D004,Puta-O,ပူတာအို,MMR001015,Sumprabum,ဆွမ်ပရာဘွမ်,42,361
+MMR001,Kachin,ကချင်,MMR001D004,Puta-O,ပူတာအို,MMR001016,Machanbaw,မချမ်းဘော,27,116
+MMR001,Kachin,ကချင်,MMR001D004,Puta-O,ပူတာအို,MMR001017,Nawngmun,နောင်မွန်း,15,66
+MMR001,Kachin,ကချင်,MMR001D004,Puta-O,ပူတာအို,MMR001018,Khaunglanhpu,ခေါင်လန်ဖူး,25,221
+MMR002,Kayah,ကယား,MMR002D001,Loikaw,လွိုင်ကော်,MMR002001,Loikaw,လွိုင်ကော်,16,212
+MMR002,Kayah,ကယား,MMR002D001,Loikaw,လွိုင်ကော်,MMR002002,Demoso,ဒီးမော့ဆို,28,195
+MMR002,Kayah,ကယား,MMR002D001,Loikaw,လွိုင်ကော်,MMR002003,Hpruso,ဖရူဆို,15,122
+MMR002,Kayah,ကယား,MMR002D001,Loikaw,လွိုင်ကော်,MMR002004,Shadaw,ရှားတော,5,111
+MMR002,Kayah,ကယား,MMR002D002,Bawlake,ဘောလခဲ,MMR002005,Bawlake,ဘောလခဲ,11,34
+MMR002,Kayah,ကယား,MMR002D002,Bawlake,ဘောလခဲ,MMR002006,Hpasawng,ဖားဆောင်း,9,66
+MMR002,Kayah,ကယား,MMR002D002,Bawlake,ဘောလခဲ,MMR002007,Mese,မယ်စဲ,7,28
+MMR003,Kayin,ကရင်,MMR003D001,Hpa-An,ဘားအံ,MMR003001,Hpa-An,ဘားအံ,93,490
+MMR003,Kayin,ကရင်,MMR003D001,Hpa-An,ဘားအံ,MMR003002,Hlaingbwe,လှိုင်းဘွဲ့,75,416
+MMR003,Kayin,ကရင်,MMR003D001,Hpa-An,ဘားအံ,MMR003004,Thandaunggyi,သံတောင်ကြီး,63,361
+MMR003,Kayin,ကရင်,MMR003D002,Myawaddy,မြဝတီ,MMR003005,Myawaddy,မြဝတီ,20,86
+MMR003,Kayin,ကရင်,MMR003D003,Kawkareik,ကော့ကရိတ်,MMR003006,Kawkareik,ကော့ကရိတ်,55,272
+MMR003,Kayin,ကရင်,MMR003D003,Kawkareik,ကော့ကရိတ်,MMR003007,Kyainseikgyi,ကြာအင်းဆိပ်ကြီး,54,309
+MMR003,Kayin,ကရင်,MMR003D004,Hpapun,ဖာပွန်,MMR003003,Hpapun,ဖာပွန်,35,315
+MMR004,Chin,ချင်း,MMR004D001,Falam,ဖလမ်း,MMR004001,Falam,ဖလမ်း,89,208
+MMR004,Chin,ချင်း,MMR004D001,Falam,ဖလမ်း,MMR004004,Tedim,တီးတိန်,57,143
+MMR004,Chin,ချင်း,MMR004D001,Falam,ဖလမ်း,MMR004005,Tonzang,တွန်းဇန်,33,107
+MMR004,Chin,ချင်း,MMR004D002,Mindat,မင်းတပ်,MMR004006,Mindat,မင်းတပ်,48,218
+MMR004,Chin,ချင်း,MMR004D002,Mindat,မင်းတပ်,MMR004008,Kanpetlet,ကန်ပက်လက်,28,119
+MMR004,Chin,ချင်း,MMR004D003,Hakha,ဟားခါး,MMR004002,Hakha,ဟားခါး,32,80
+MMR004,Chin,ချင်း,MMR004D003,Hakha,ဟားခါး,MMR004003,Thantlang,ထန်တလန်,39,98
+MMR004,Chin,ချင်း,MMR004D004,Matupi,မတူပီ,MMR004007,Matupi,မတူပီ,66,155
+MMR004,Chin,ချင်း,MMR004D004,Matupi,မတူပီ,MMR004009,Paletwa,ပလက်ဝ,99,462
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D001,Sagaing,စစ်ကိုင်း,MMR005001,Sagaing,စစ်ကိုင်း,83,256
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D001,Sagaing,စစ်ကိုင်း,MMR005002,Myinmu,မြင်းမူ,49,91
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D001,Sagaing,စစ်ကိုင်း,MMR005003,Myaung,မြောင်,50,88
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D002,Shwebo,ရွှေဘို,MMR005004,Shwebo,ရွှေဘို,75,198
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D002,Shwebo,ရွှေဘို,MMR005005,Khin-U,ခင်ဦး,60,155
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D002,Shwebo,ရွှေဘို,MMR005006,Wetlet,ဝက်လက်,70,249
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D002,Shwebo,ရွှေဘို,MMR005009,Ye-U,ရေဦး,63,217
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D002,Shwebo,ရွှေဘို,MMR005010,Tabayin,ဒီပဲယင်း,58,223
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D002,Shwebo,ရွှေဘို,MMR005011,Taze,တန့်ဆည်,58,289
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D003,Monywa,မုံရွာ,MMR005012,Monywa,မုံရွာ,58,225
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D003,Monywa,မုံရွာ,MMR005013,Budalin,ဘုတလင်,55,194
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D003,Monywa,မုံရွာ,MMR005014,Ayadaw,အရာတော်,40,169
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D003,Monywa,မုံရွာ,MMR005015,Chaung-U,ချောင်းဦး,27,96
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D004,Katha,ကသာ,MMR005020,Katha,ကသာ,33,167
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D004,Katha,ကသာ,MMR005021,Indaw,အင်းတော်,42,170
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D004,Katha,ကသာ,MMR005022,Tigyaing,ထီးချိုင့်,30,129
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D004,Katha,ကသာ,MMR005023,Banmauk,ဗန်းမောက်,48,244
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D005,Kale,ကလေး,MMR005027,Kale,ကလေး,43,210
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D005,Kale,ကလေး,MMR005028,Kalewa,ကလေးဝ,37,135
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D005,Kale,ကလေး,MMR005029,Mingin,မင်းကင်း,62,193
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D006,Tamu,တမူး,MMR005030,Tamu,တမူး,25,80
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D007,Mawlaik,မော်လိုက်,MMR005031,Mawlaik,မော်လိုက်,29,82
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D007,Mawlaik,မော်လိုက်,MMR005032,Paungbyin,ဖောင်းပြင်,41,190
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D008,Hkamti,ခန္တီး,MMR005033,Hkamti,ခန္တီး,30,113
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D008,Hkamti,ခန္တီး,MMR005034,Homalin,ဟုမ္မလင်း,79,373
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D009,Yinmarbin,ယင်းမာပင်,MMR005016,Yinmarbin,ယင်းမာပင်,43,178
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D009,Yinmarbin,ယင်းမာပင်,MMR005017,Kani,ကနီ,46,200
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D009,Yinmarbin,ယင်းမာပင်,MMR005018,Salingyi,ဆားလင်းကြီး,40,161
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D009,Yinmarbin,ယင်းမာပင်,MMR005019,Pale,ပုလဲ,60,201
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D010,Kanbalu,ကန့်ဘလူ,MMR005007,Kanbalu,ကန့်ဘလူ,89,321
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D010,Kanbalu,ကန့်ဘလူ,MMR005008,Kyunhla,ကျွန်းလှ,35,128
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D011,Kawlin,ကောလင်း,MMR005024,Kawlin,ကောလင်း,48,225
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D011,Kawlin,ကောလင်း,MMR005025,Wuntho,ဝန်းသို,39,196
+MMR005,Sagaing,စစ်ကိုင်း,MMR005D011,Kawlin,ကောလင်း,MMR005026,Pinlebu,ပင်လည်ဘူး,53,290
+MMR005,Sagaing,စစ်ကိုင်း,MMR005S001,Naga Self-Administered Zone,နာဂ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ,MMR005035,Layshi,လေရှီး,26,97
+MMR005,Sagaing,စစ်ကိုင်း,MMR005S001,Naga Self-Administered Zone,နာဂ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ,MMR005036,Lahe,လဟယ်,38,119
+MMR005,Sagaing,စစ်ကိုင်း,MMR005S001,Naga Self-Administered Zone,နာဂ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ,MMR005037,Nanyun,နန်းယွန်း,70,174
+MMR006,Tanintharyi,တနင်္သာရီ,MMR006D001,Dawei,ထားဝယ်,MMR006001,Dawei,ထားဝယ်,27,120
+MMR006,Tanintharyi,တနင်္သာရီ,MMR006D001,Dawei,ထားဝယ်,MMR006002,Launglon,လောင်းလုံး,42,117
+MMR006,Tanintharyi,တနင်္သာရီ,MMR006D001,Dawei,ထားဝယ်,MMR006003,Thayetchaung,သရက်ချောင်း,40,106
+MMR006,Tanintharyi,တနင်္သာရီ,MMR006D001,Dawei,ထားဝယ်,MMR006004,Yebyu,ရေဖြူ,36,137
+MMR006,Tanintharyi,တနင်္သာရီ,MMR006D002,Myeik,မြိတ်,MMR006005,Myeik,မြိတ်,23,153
+MMR006,Tanintharyi,တနင်္သာရီ,MMR006D002,Myeik,မြိတ်,MMR006006,Kyunsu,ကျွန်းစု,24,192
+MMR006,Tanintharyi,တနင်္သာရီ,MMR006D002,Myeik,မြိတ်,MMR006007,Palaw,ပုလော,30,170
+MMR006,Tanintharyi,တနင်္သာရီ,MMR006D002,Myeik,မြိတ်,MMR006008,Tanintharyi,တနင်္သာရီ,23,212
+MMR006,Tanintharyi,တနင်္သာရီ,MMR006D003,Kawthoung,ကော့သောင်း,MMR006009,Kawthoung,ကော့သောင်း,20,96
+MMR006,Tanintharyi,တနင်္သာရီ,MMR006D003,Kawthoung,ကော့သောင်း,MMR006010,Bokpyin,ဘုတ်ပြင်း,23,114
+MMR007,Bago (East),ပဲခူး (အရှေ့),MMR007D001,Bago,ပဲခူး,MMR007001,Bago,ပဲခူး,72,269
+MMR007,Bago (East),ပဲခူး (အရှေ့),MMR007D001,Bago,ပဲခူး,MMR007002,Thanatpin,သနပ်ပင်,61,109
+MMR007,Bago (East),ပဲခူး (အရှေ့),MMR007D001,Bago,ပဲခူး,MMR007003,Kawa,ကဝ,94,172
+MMR007,Bago (East),ပဲခူး (အရှေ့),MMR007D001,Bago,ပဲခူး,MMR007004,Waw,ဝေါ,59,125
+MMR007,Bago (East),ပဲခူး (အရှေ့),MMR007D001,Bago,ပဲခူး,MMR007005,Nyaunglebin,ညောင်လေးပင်,53,165
+MMR007,Bago (East),ပဲခူး (အရှေ့),MMR007D001,Bago,ပဲခူး,MMR007006,Kyauktaga,ကျောက်တံခါး,50,342
+MMR007,Bago (East),ပဲခူး (အရှေ့),MMR007D001,Bago,ပဲခူး,MMR007007,Daik-U,ဒိုက်ဦး,45,193
+MMR007,Bago (East),ပဲခူး (အရှေ့),MMR007D001,Bago,ပဲခူး,MMR007008,Shwegyin,ရွှေကျင်,61,235
+MMR007,Bago (East),ပဲခူး (အရှေ့),MMR007D002,Taungoo,တောင်ငူ,MMR007009,Taungoo,တောင်ငူ,39,291
+MMR007,Bago (East),ပဲခူး (အရှေ့),MMR007D002,Taungoo,တောင်ငူ,MMR007010,Yedashe,ရေတာရှည်,56,358
+MMR007,Bago (East),ပဲခူး (အရှေ့),MMR007D002,Taungoo,တောင်ငူ,MMR007011,Kyaukkyi,ကျောက်ကြီး,47,248
+MMR007,Bago (East),ပဲခူး (အရှေ့),MMR007D002,Taungoo,တောင်ငူ,MMR007012,Phyu,ဖြူး,64,371
+MMR007,Bago (East),ပဲခူး (အရှေ့),MMR007D002,Taungoo,တောင်ငူ,MMR007013,Oktwin,အုတ်တွင်း,43,250
+MMR007,Bago (East),ပဲခူး (အရှေ့),MMR007D002,Taungoo,တောင်ငူ,MMR007014,Htantabin,ထန်းတပင်,30,120
+MMR008,Bago (West),ပဲခူး (အနောက်),MMR008D001,Pyay,ပြည်,MMR008001,Pyay,ပြည်,58,275
+MMR008,Bago (West),ပဲခူး (အနောက်),MMR008D001,Pyay,ပြည်,MMR008002,Paukkhaung,ပေါက်ခေါင်း,54,252
+MMR008,Bago (West),ပဲခူး (အနောက်),MMR008D001,Pyay,ပြည်,MMR008003,Padaung,ပန်းတောင်း,44,219
+MMR008,Bago (West),ပဲခူး (အနောက်),MMR008D001,Pyay,ပြည်,MMR008004,Paungde,ပေါင်းတည်,45,256
+MMR008,Bago (West),ပဲခူး (အနောက်),MMR008D001,Pyay,ပြည်,MMR008005,Thegon,သဲကုန်း,55,362
+MMR008,Bago (West),ပဲခူး (အနောက်),MMR008D001,Pyay,ပြည်,MMR008006,Shwedaung,ရွှေတောင်,49,300
+MMR008,Bago (West),ပဲခူး (အနောက်),MMR008D002,Thayarwady,သာယာဝတီ,MMR008007,Thayarwady,သာယာဝတီ,50,283
+MMR008,Bago (West),ပဲခူး (အနောက်),MMR008D002,Thayarwady,သာယာဝတီ,MMR008008,Letpadan,လက်ပံတန်း,50,314
+MMR008,Bago (West),ပဲခူး (အနောက်),MMR008D002,Thayarwady,သာယာဝတီ,MMR008009,Minhla,မင်းလှ,57,260
+MMR008,Bago (West),ပဲခူး (အနောက်),MMR008D002,Thayarwady,သာယာဝတီ,MMR008010,Okpho,အုတ်ဖို,56,265
+MMR008,Bago (West),ပဲခူး (အနောက်),MMR008D002,Thayarwady,သာယာဝတီ,MMR008011,Zigon,ဇီးကုန်း,30,137
+MMR008,Bago (West),ပဲခူး (အနောက်),MMR008D002,Thayarwady,သာယာဝတီ,MMR008012,Nattalin,နတ်တလင်း,80,374
+MMR008,Bago (West),ပဲခူး (အနောက်),MMR008D002,Thayarwady,သာယာဝတီ,MMR008013,Monyo,မိုးညို,38,212
+MMR008,Bago (West),ပဲခူး (အနောက်),MMR008D002,Thayarwady,သာယာဝတီ,MMR008014,Gyobingauk,ကြို့ပင်ကောက်,50,287
+MMR009,Magway,မကွေး,MMR009D001,Magway,မကွေး,MMR009001,Magway,မကွေး,62,234
+MMR009,Magway,မကွေး,MMR009D001,Magway,မကွေး,MMR009002,Yenangyaung,ရေနံချောင်း,30,160
+MMR009,Magway,မကွေး,MMR009D001,Magway,မကွေး,MMR009003,Chauk,ချောက်,53,250
+MMR009,Magway,မကွေး,MMR009D001,Magway,မကွေး,MMR009004,Taungdwingyi,တောင်တွင်းကြီး,73,299
+MMR009,Magway,မကွေး,MMR009D001,Magway,မကွေး,MMR009005,Myothit,မြို့သစ်,48,186
+MMR009,Magway,မကွေး,MMR009D001,Magway,မကွေး,MMR009006,Natmauk,နတ်မောက်,74,244
+MMR009,Magway,မကွေး,MMR009D002,Minbu,မင်းဘူး,MMR009007,Minbu,မင်းဘူး,69,161
+MMR009,Magway,မကွေး,MMR009D002,Minbu,မင်းဘူး,MMR009008,Pwintbyu,ပွင့်ဖြူ,53,209
+MMR009,Magway,မကွေး,MMR009D002,Minbu,မင်းဘူး,MMR009009,Ngape,ငဖဲ,32,85
+MMR009,Magway,မကွေး,MMR009D002,Minbu,မင်းဘူး,MMR009010,Salin,စလင်း,104,438
+MMR009,Magway,မကွေး,MMR009D002,Minbu,မင်းဘူး,MMR009011,Sidoktaya,စေတုတ္ထရာ,47,124
+MMR009,Magway,မကွေး,MMR009D003,Thayet,သရက်,MMR009012,Thayet,သရက်,54,166
+MMR009,Magway,မကွေး,MMR009D003,Thayet,သရက်,MMR009013,Minhla,မင်းလှ,64,163
+MMR009,Magway,မကွေး,MMR009D003,Thayet,သရက်,MMR009014,Mindon,မင်းတုန်း,73,186
+MMR009,Magway,မကွေး,MMR009D003,Thayet,သရက်,MMR009015,Kamma,ကံမ,53,160
+MMR009,Magway,မကွေး,MMR009D003,Thayet,သရက်,MMR009016,Aunglan,အောင်လံ,93,258
+MMR009,Magway,မကွေး,MMR009D003,Thayet,သရက်,MMR009017,Sinbaungwe,ဆင်ပေါင်ဝဲ,47,147
+MMR009,Magway,မကွေး,MMR009D004,Pakokku,ပခုက္ကူ,MMR009018,Pakokku,ပခုက္ကူ,58,307
+MMR009,Magway,မကွေး,MMR009D004,Pakokku,ပခုက္ကူ,MMR009019,Yesagyo,ရေစကြို,82,260
+MMR009,Magway,မကွေး,MMR009D004,Pakokku,ပခုက္ကူ,MMR009020,Myaing,မြိုင်,82,336
+MMR009,Magway,မကွေး,MMR009D004,Pakokku,ပခုက္ကူ,MMR009021,Pauk,ပေါက်,72,239
+MMR009,Magway,မကွေး,MMR009D004,Pakokku,ပခုက္ကူ,MMR009022,Seikphyu,ဆိပ်ဖြူ,44,147
+MMR009,Magway,မကွေး,MMR009D005,Gangaw,ဂန့်ဂေါ,MMR009023,Gangaw,ဂန့်ဂေါ,73,123
+MMR009,Magway,မကွေး,MMR009D005,Gangaw,ဂန့်ဂေါ,MMR009024,Tilin,ထီးလင်း,72,98
+MMR009,Magway,မကွေး,MMR009D005,Gangaw,ဂန့်ဂေါ,MMR009025,Saw,ဆော,65,126
+MMR010,Mandalay,မန္တလေး,MMR010D001,Mandalay,မန္တလေး,MMR010001,Aungmyaythazan,အောင်မြေသာစံ,1,19
+MMR010,Mandalay,မန္တလေး,MMR010D001,Mandalay,မန္တလေး,MMR010002,Chanayethazan,ချမ်းအေးသာစံ,1,20
+MMR010,Mandalay,မန္တလေး,MMR010D001,Mandalay,မန္တလေး,MMR010003,Mahaaungmyay,မဟာအောင်မြေ,1,18
+MMR010,Mandalay,မန္တလေး,MMR010D001,Mandalay,မန္တလေး,MMR010004,Chanmyathazi,ချမ်းမြသာစည်,1,14
+MMR010,Mandalay,မန္တလေး,MMR010D001,Mandalay,မန္တလေး,MMR010005,Pyigyitagon,ပြည်ကြီးတံခွန်,1,18
+MMR010,Mandalay,မန္တလေး,MMR010D001,Mandalay,မန္တလေး,MMR010006,Amarapura,အမရပူရ,44,190
+MMR010,Mandalay,မန္တလေး,MMR010D001,Mandalay,မန္တလေး,MMR010007,Patheingyi,ပုသိမ်ကြီး,59,148
+MMR010,Mandalay,မန္တလေး,MMR010D002,Pyinoolwin,ပြင်ဦးလွင်,MMR010008,Pyinoolwin,ပြင်ဦးလွင်,39,141
+MMR010,Mandalay,မန္တလေး,MMR010D002,Pyinoolwin,ပြင်ဦးလွင်,MMR010009,Madaya,မတ္တရာ,84,300
+MMR010,Mandalay,မန္တလေး,MMR010D002,Pyinoolwin,ပြင်ဦးလွင်,MMR010010,Singu,စဉ့်ကူး,38,139
+MMR010,Mandalay,မန္တလေး,MMR010D002,Pyinoolwin,ပြင်ဦးလွင်,MMR010011,Mogoke,မိုးကုတ်,31,146
+MMR010,Mandalay,မန္တလေး,MMR010D002,Pyinoolwin,ပြင်ဦးလွင်,MMR010012,Thabeikkyin,သပိတ်ကျင်း,24,79
+MMR010,Mandalay,မန္တလေး,MMR010D003,Kyaukse,ကျောက်ဆည်,MMR010013,Kyaukse,ကျောက်ဆည်,88,251
+MMR010,Mandalay,မန္တလေး,MMR010D003,Kyaukse,ကျောက်ဆည်,MMR010014,Sintgaing,စဉ့်ကိုင်,49,172
+MMR010,Mandalay,မန္တလေး,MMR010D003,Kyaukse,ကျောက်ဆည်,MMR010015,Myittha,မြစ်သား,84,254
+MMR010,Mandalay,မန္တလေး,MMR010D003,Kyaukse,ကျောက်ဆည်,MMR010016,Tada-U,တံတားဦး,62,175
+MMR010,Mandalay,မန္တလေး,MMR010D004,Myingyan,မြင်းခြံ,MMR010017,Myingyan,မြင်းခြံ,68,211
+MMR010,Mandalay,မန္တလေး,MMR010D004,Myingyan,မြင်းခြံ,MMR010018,Taungtha,တောင်သာ,78,254
+MMR010,Mandalay,မန္တလေး,MMR010D004,Myingyan,မြင်းခြံ,MMR010019,Natogyi,နွားထိုးကြီး,65,198
+MMR010,Mandalay,မန္တလေး,MMR010D004,Myingyan,မြင်းခြံ,MMR010021,Ngazun,ငါန်းဇွန်,45,165
+MMR010,Mandalay,မန္တလေး,MMR010D005,Nyaung-U,ညောင်ဦး,MMR010020,Kyaukpadaung,ကျောက်ပန်းတောင်း,110,355
+MMR010,Mandalay,မန္တလေး,MMR010D005,Nyaung-U,ညောင်ဦး,MMR010022,Nyaung-U,ညောင်ဦး,79,249
+MMR010,Mandalay,မန္တလေး,MMR010D006,Yamethin,ရမည်းသင်း,MMR010023,Yamethin,ရမည်းသင်း,64,265
+MMR010,Mandalay,မန္တလေး,MMR010D006,Yamethin,ရမည်းသင်း,MMR010024,Pyawbwe,ပျော်ဘွယ်,76,329
+MMR010,Mandalay,မန္တလေး,MMR010D007,Meiktila,မိတ္ထီလာ,MMR010028,Meiktila,မိတ္ထီလာ,59,404
+MMR010,Mandalay,မန္တလေး,MMR010D007,Meiktila,မိတ္ထီလာ,MMR010029,Mahlaing,မလှိုင်,53,251
+MMR010,Mandalay,မန္တလေး,MMR010D007,Meiktila,မိတ္ထီလာ,MMR010030,Thazi,သာစည်,81,267
+MMR010,Mandalay,မန္တလေး,MMR010D007,Meiktila,မိတ္ထီလာ,MMR010031,Wundwin,ဝမ်းတွင်း,70,224
+MMR011,Mon,မွန်,MMR011D001,Mawlamyine,မော်လမြိုင်,MMR011001,Mawlamyine,မော်လမြိုင်,20,80
+MMR011,Mon,မွန်,MMR011D001,Mawlamyine,မော်လမြိုင်,MMR011002,Kyaikmaraw,ကျိုက်မရော,45,176
+MMR011,Mon,မွန်,MMR011D001,Mawlamyine,မော်လမြိုင်,MMR011003,Chaungzon,ချောင်းဆုံ,44,82
+MMR011,Mon,မွန်,MMR011D001,Mawlamyine,မော်လမြိုင်,MMR011004,Thanbyuzayat,သံဖြူဇရပ်,28,111
+MMR011,Mon,မွန်,MMR011D001,Mawlamyine,မော်လမြိုင်,MMR011005,Mudon,မုဒုံ,40,65
+MMR011,Mon,မွန်,MMR011D001,Mawlamyine,မော်လမြိုင်,MMR011006,Ye,ရေး,33,175
+MMR011,Mon,မွန်,MMR011D002,Thaton,သထုံ,MMR011007,Thaton,သထုံ,51,206
+MMR011,Mon,မွန်,MMR011D002,Thaton,သထုံ,MMR011008,Paung,ပေါင်,53,177
+MMR011,Mon,မွန်,MMR011D002,Thaton,သထုံ,MMR011009,Kyaikto,ကျိုက်ထို,37,100
+MMR011,Mon,မွန်,MMR011D002,Thaton,သထုံ,MMR011010,Bilin,ဘီးလင်း,52,240
+MMR012,Rakhine,ရခိုင်,MMR012D001,Sittwe,စစ်တွေ,MMR012001,Sittwe,စစ်တွေ,28,128
+MMR012,Rakhine,ရခိုင်,MMR012D001,Sittwe,စစ်တွေ,MMR012002,Ponnagyun,ပုဏ္ဏားကျွန်း,93,218
+MMR012,Rakhine,ရခိုင်,MMR012D001,Sittwe,စစ်တွေ,MMR012007,Pauktaw,ပေါက်တော,54,205
+MMR012,Rakhine,ရခိုင်,MMR012D001,Sittwe,စစ်တွေ,MMR012008,Rathedaung,ရသေ့တောင်,89,227
+MMR012,Rakhine,ရခိုင်,MMR012D002,Maungdaw,မောင်တော,MMR012009,Maungdaw,မောင်တော,102,428
+MMR012,Rakhine,ရခိုင်,MMR012D002,Maungdaw,မောင်တော,MMR012010,Buthidaung,ဘူးသီးတောင်,79,377
+MMR012,Rakhine,ရခိုင်,MMR012D003,Kyaukpyu,ကျောက်ဖြူ,MMR012011,Kyaukpyu,ကျောက်ဖြူ,56,303
+MMR012,Rakhine,ရခိုင်,MMR012D003,Kyaukpyu,ကျောက်ဖြူ,MMR012012,Munaung,မာန်အောင်,37,149
+MMR012,Rakhine,ရခိုင်,MMR012D003,Kyaukpyu,ကျောက်ဖြူ,MMR012013,Ramree,ရမ်းဗြဲ,53,225
+MMR012,Rakhine,ရခိုင်,MMR012D003,Kyaukpyu,ကျောက်ဖြူ,MMR012014,Ann,အမ်း,31,302
+MMR012,Rakhine,ရခိုင်,MMR012D004,Thandwe,သံတွဲ,MMR012015,Thandwe,သံတွဲ,65,314
+MMR012,Rakhine,ရခိုင်,MMR012D004,Thandwe,သံတွဲ,MMR012016,Toungup,တောင်ကုတ်,56,245
+MMR012,Rakhine,ရခိုင်,MMR012D004,Thandwe,သံတွဲ,MMR012017,Gwa,ဂွ,35,182
+MMR012,Rakhine,ရခိုင်,MMR012D005,Mrauk-U,မြောက်ဦး,MMR012003,Mrauk-U,မြောက်ဦး,97,272
+MMR012,Rakhine,ရခိုင်,MMR012D005,Mrauk-U,မြောက်ဦး,MMR012004,Kyauktaw,ကျောက်တော်,80,334
+MMR012,Rakhine,ရခိုင်,MMR012D005,Mrauk-U,မြောက်ဦး,MMR012005,Minbya,မင်းပြား,63,305
+MMR012,Rakhine,ရခိုင်,MMR012D005,Mrauk-U,မြောက်ဦး,MMR012006,Myebon,မြေပုံ,62,188
+MMR013,Yangon,ရန်ကုန်,MMR013D001,Yangon (North),ရန်ကုန် (မြောက်),MMR013001,Insein,အင်းစိန်,1,21
+MMR013,Yangon,ရန်ကုန်,MMR013D001,Yangon (North),ရန်ကုန် (မြောက်),MMR013002,Mingaladon,မင်္ဂလာဒုံ,7,48
+MMR013,Yangon,ရန်ကုန်,MMR013D001,Yangon (North),ရန်ကုန် (မြောက်),MMR013003,Hmawbi,မှော်ဘီ,40,209
+MMR013,Yangon,ရန်ကုန်,MMR013D001,Yangon (North),ရန်ကုန် (မြောက်),MMR013004,Hlegu,လှည်းကူး,55,206
+MMR013,Yangon,ရန်ကုန်,MMR013D001,Yangon (North),ရန်ကုန် (မြောက်),MMR013005,Taikkyi,တိုက်ကြီး,78,497
+MMR013,Yangon,ရန်ကုန်,MMR013D001,Yangon (North),ရန်ကုန် (မြောက်),MMR013006,Htantabin,ထန်းတပင်,55,242
+MMR013,Yangon,ရန်ကုန်,MMR013D001,Yangon (North),ရန်ကုန် (မြောက်),MMR013007,Shwepyithar,ရွှေပြည်သာ,5,29
+MMR013,Yangon,ရန်ကုန်,MMR013D001,Yangon (North),ရန်ကုန် (မြောက်),MMR013008,Hlaingtharya,လှိုင်သာယာ,1,20
+MMR013,Yangon,ရန်ကုန်,MMR013D001,Yangon (North),ရန်ကုန် (မြောက်),MMR013046,Hlaingtharya (East),လှိုင်သာယာ (အရှေ့ပိုင်း),6,18
+MMR013,Yangon,ရန်ကုန်,MMR013D001,Yangon (North),ရန်ကုန် (မြောက်),MMR013047,Hlaingtharya (West),လှိုင်သာယာ (အနောက်ပိုင်း),5,20
+MMR013,Yangon,ရန်ကုန်,MMR013D002,Yangon (East),ရန်ကုန် (အရှေ့),MMR013009,Thingangyun,သင်္ဃန်းကျွန်း,1,39
+MMR013,Yangon,ရန်ကုန်,MMR013D002,Yangon (East),ရန်ကုန် (အရှေ့),MMR013010,Yankin,ရန်ကင်း,1,15
+MMR013,Yangon,ရန်ကုန်,MMR013D002,Yangon (East),ရန်ကုန် (အရှေ့),MMR013011,South Okkalapa,တောင်ဥက္ကလာပ,1,13
+MMR013,Yangon,ရန်ကုန်,MMR013D002,Yangon (East),ရန်ကုန် (အရှေ့),MMR013012,North Okkalapa,မြောက်ဥက္ကလာပ,1,19
+MMR013,Yangon,ရန်ကုန်,MMR013D002,Yangon (East),ရန်ကုန် (အရှေ့),MMR013013,Thaketa,သာကေတ,1,19
+MMR013,Yangon,ရန်ကုန်,MMR013D002,Yangon (East),ရန်ကုန် (အရှေ့),MMR013014,Dawbon,ဒေါပုံ,1,14
+MMR013,Yangon,ရန်ကုန်,MMR013D002,Yangon (East),ရန်ကုန် (အရှေ့),MMR013015,Tamwe,တာမွေ,1,20
+MMR013,Yangon,ရန်ကုန်,MMR013D002,Yangon (East),ရန်ကုန် (အရှေ့),MMR013016,Pazundaung,ပုဇွန်တောင်,1,10
+MMR013,Yangon,ရန်ကုန်,MMR013D002,Yangon (East),ရန်ကုန် (အရှေ့),MMR013017,Botahtaung,ဗိုလ်တထောင်,1,10
+MMR013,Yangon,ရန်ကုန်,MMR013D002,Yangon (East),ရန်ကုန် (အရှေ့),MMR013018,Dagon Myothit (South),ဒဂုံမြို့သစ် (တောင်ပိုင်း),6,49
+MMR013,Yangon,ရန်ကုန်,MMR013D002,Yangon (East),ရန်ကုန် (အရှေ့),MMR013019,Dagon Myothit (North),ဒဂုံမြို့သစ် (မြောက်ပိုင်း),1,27
+MMR013,Yangon,ရန်ကုန်,MMR013D002,Yangon (East),ရန်ကုန် (အရှေ့),MMR013020,Dagon Myothit (East),ဒဂုံမြို့သစ် (အရှေ့ပိုင်း),4,69
+MMR013,Yangon,ရန်ကုန်,MMR013D002,Yangon (East),ရန်ကုန် (အရှေ့),MMR013021,Dagon Myothit (Seikkan),ဒဂုံမြို့သစ် (ဆိပ်ကမ်း),5,40
+MMR013,Yangon,ရန်ကုန်,MMR013D002,Yangon (East),ရန်ကုန် (အရှေ့),MMR013022,Mingalartaungnyunt,မင်္ဂလာတောင်ညွန့်,1,20
+MMR013,Yangon,ရန်ကုန်,MMR013D003,Yangon (South),ရန်ကုန် (တောင်),MMR013023,Thanlyin,သန်လျင်,29,77
+MMR013,Yangon,ရန်ကုန်,MMR013D003,Yangon (South),ရန်ကုန် (တောင်),MMR013024,Kyauktan,ကျောက်တန်း,47,106
+MMR013,Yangon,ရန်ကုန်,MMR013D003,Yangon (South),ရန်ကုန် (တောင်),MMR013025,Thongwa,သုံးခွ,65,185
+MMR013,Yangon,ရန်ကုန်,MMR013D003,Yangon (South),ရန်ကုန် (တောင်),MMR013026,Kayan,ခရမ်း,54,185
+MMR013,Yangon,ရန်ကုန်,MMR013D003,Yangon (South),ရန်ကုန် (တောင်),MMR013027,Twantay,တွံတေး,66,264
+MMR013,Yangon,ရန်ကုန်,MMR013D003,Yangon (South),ရန်ကုန် (တောင်),MMR013028,Kawhmu,ကော့မှူး,56,140
+MMR013,Yangon,ရန်ကုန်,MMR013D003,Yangon (South),ရန်ကုန် (တောင်),MMR013029,Kungyangon,ကွမ်းခြံကုန်း,44,156
+MMR013,Yangon,ရန်ကုန်,MMR013D003,Yangon (South),ရန်ကုန် (တောင်),MMR013030,Dala,ဒလ,24,79
+MMR013,Yangon,ရန်ကုန်,MMR013D003,Yangon (South),ရန်ကုန် (တောင်),MMR013031,Seikgyikanaungto,ဆိပ်ကြီး/ခနောင်တို,1,9
+MMR013,Yangon,ရန်ကုန်,MMR013D003,Yangon (South),ရန်ကုန် (တောင်),MMR013032,Cocokyun,ကိုကိုးကျွန်း,1,2
+MMR013,Yangon,ရန်ကုန်,MMR013D004,Yangon (West),ရန်ကုန် (အနောက်),MMR013017,Botahtaung,ဗိုလ်တထောင်,1,2
+MMR013,Yangon,ရန်ကုန်,MMR013D004,Yangon (West),ရန်ကုန် (အနောက်),MMR013033,Kyauktada,ကျောက်တံတား,1,9
+MMR013,Yangon,ရန်ကုန်,MMR013D004,Yangon (West),ရန်ကုန် (အနောက်),MMR013034,Pabedan,ပန်းဘဲတန်း,1,11
+MMR013,Yangon,ရန်ကုန်,MMR013D004,Yangon (West),ရန်ကုန် (အနောက်),MMR013035,Lanmadaw,လမ်းမတော်,1,13
+MMR013,Yangon,ရန်ကုန်,MMR013D004,Yangon (West),ရန်ကုန် (အနောက်),MMR013036,Latha,လသာ,1,10
+MMR013,Yangon,ရန်ကုန်,MMR013D004,Yangon (West),ရန်ကုန် (အနောက်),MMR013037,Ahlone,အလုံ,1,11
+MMR013,Yangon,ရန်ကုန်,MMR013D004,Yangon (West),ရန်ကုန် (အနောက်),MMR013038,Kyeemyindaing,ကြည့်မြင်တိုင်,1,22
+MMR013,Yangon,ရန်ကုန်,MMR013D004,Yangon (West),ရန်ကုန် (အနောက်),MMR013039,Sanchaung,စမ်းချောင်း,1,18
+MMR013,Yangon,ရန်ကုန်,MMR013D004,Yangon (West),ရန်ကုန် (အနောက်),MMR013040,Hlaing,လှိုင်,1,16
+MMR013,Yangon,ရန်ကုန်,MMR013D004,Yangon (West),ရန်ကုန် (အနောက်),MMR013041,Kamaryut,ကမာရွတ်,1,10
+MMR013,Yangon,ရန်ကုန်,MMR013D004,Yangon (West),ရန်ကုန် (အနောက်),MMR013042,Mayangone,မရမ်းကုန်း,1,10
+MMR013,Yangon,ရန်ကုန်,MMR013D004,Yangon (West),ရန်ကုန် (အနောက်),MMR013043,Dagon,ဒဂုံ,1,5
+MMR013,Yangon,ရန်ကုန်,MMR013D004,Yangon (West),ရန်ကုန် (အနောက်),MMR013044,Bahan,ဗဟန်း,1,22
+MMR013,Yangon,ရန်ကုန်,MMR013D004,Yangon (West),ရန်ကုန် (အနောက်),MMR013045,Seikkan,ဆိပ်ကမ်း,1,3
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014D001,Taunggyi,တောင်ကြီး,MMR014001,Taunggyi,တောင်ကြီး,28,384
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014D001,Taunggyi,တောင်ကြီး,MMR014002,Nyaungshwe,ညောင်ရွှေ,37,458
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014D001,Taunggyi,တောင်ကြီး,MMR014005,Kalaw,ကလော,29,306
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014D001,Taunggyi,တောင်ကြီး,MMR014008,Lawksawk,ရပ်စောက်,20,290
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014D001,Taunggyi,တောင်ကြီး,MMR014010,Pekon,ဖယ်ခုံ,13,218
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014D002,Loilen,လွိုင်လင်,MMR014011,Loilen,လွိုင်လင်,21,318
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014D002,Loilen,လွိုင်လင်,MMR014012,Laihka,လဲချား,20,255
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014D002,Loilen,လွိုင်လင်,MMR014013,Nansang,နမ့်စန်,22,375
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014D002,Loilen,လွိုင်လင်,MMR014014,Kunhing,ကွန်ဟိန်း,16,207
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014D002,Loilen,လွိုင်လင်,MMR014015,Kyethi,ကျေးသီး,34,472
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014D002,Loilen,လွိုင်လင်,MMR014016,Mongkaing,မိုင်းကိုင်,25,353
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014D002,Loilen,လွိုင်လင်,MMR014017,Monghsu,မိုင်းရှူး,19,273
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014D003,Langkho,လင်းခေး,MMR014018,Langkho,လင်းခေး,16,215
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014D003,Langkho,လင်းခေး,MMR014019,Mongnai,မိုးနဲ,17,188
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014D003,Langkho,လင်းခေး,MMR014020,Mawkmai,မောက်မယ်,9,212
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014D003,Langkho,လင်းခေး,MMR014021,Mongpan,မိုင်းပန်,12,147
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014S001,Danu Self-Administered Zone,ဓနု ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ,MMR014006,Pindaya,ပင်းတယ,28,158
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014S001,Danu Self-Administered Zone,ဓနု ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ,MMR014007,Ywangan,ရွာငံ,30,128
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014S002,Pa-O Self-Administered Zone,ပအို့ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ,MMR014003,Hopong,ဟိုပုံး,23,352
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014S002,Pa-O Self-Administered Zone,ပအို့ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ,MMR014004,Hsihseng,ဆီဆိုင်,14,344
+MMR014,Shan (South),ရှမ်း (တောင်),MMR014S002,Pa-O Self-Administered Zone,ပအို့ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ,MMR014009,Pinlaung,ပင်လောင်း,28,557
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D001,Lashio,လားရှိုး,MMR015001,Lashio,လားရှိုး,79,677
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D001,Lashio,လားရှိုး,MMR015002,Hseni,သိန္နီ,33,289
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D001,Lashio,လားရှိုး,MMR015003,Mongyai,မိုင်းရယ်,29,269
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D001,Lashio,လားရှိုး,MMR015004,Tangyan,တန့်ယန်း,50,611
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D001,Lashio,လားရှိုး,MMR015020,Kunlong,ကွမ်းလုံ,26,179
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D002,Muse,မူဆယ်,MMR015009,Muse,မူဆယ်,68,359
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D002,Muse,မူဆယ်,MMR015010,Namhkan,နမ့်ခမ်း,45,223
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D002,Muse,မူဆယ်,MMR015011,Kutkai,ကွတ်ခိုင်,75,758
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D003,Kyaukme,ကျောက်မဲ,MMR015012,Kyaukme,ကျောက်မဲ,75,446
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D003,Kyaukme,ကျောက်မဲ,MMR015013,Nawnghkio,နောင်ချို,36,279
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D003,Kyaukme,ကျောက်မဲ,MMR015014,Hsipaw,သီပေါ,68,631
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D003,Kyaukme,ကျောက်မဲ,MMR015015,Namtu,နမ္မတူ,25,212
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D006,Hopang,ဟိုပန်,MMR015007,Pangwaun,ပန်ဝိုင်,19,93
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D006,Hopang,ဟိုပန်,MMR015008,Mongmao,မိုင်းမော,40,268
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D006,Hopang,ဟိုပန်,MMR015021,Hopang,ဟိုပန်,57,335
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D007,Matman,မက်မန်း,MMR015005,Pangsang (Panghkam),ပန်ဆန်း (ပန်ခမ်း),87,478
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D007,Matman,မက်မန်း,MMR015006,Narphan,နားဖန်း,34,182
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D007,Matman,မက်မန်း,MMR015024,Matman,မက်မန်း,29,191
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D008,Mongmit,မိုးမိတ်,MMR015017,Mongmit,မိုးမိတ်,29,150
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D008,Mongmit,မိုးမိတ်,MMR015018,Mabein,မဘိမ်း,21,73
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D221,Laukkaing (Kokang SAZ),လောက်ကိုင် (အထူးဒေသ ၁),MMR015201,Konkyan (Kokang SAZ),ကုန်းကြမ်း (အထူးဒေသ ၁),8,59
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D221,Laukkaing (Kokang SAZ),လောက်ကိုင် (အထူးဒေသ ၁),MMR015202,Laukkaing (Kokang SAZ),လောက်ကိုင် (အထူးဒေသ ၁),7,51
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D221,Laukkaing (Kokang SAZ),လောက်ကိုင် (အထူးဒေသ ၁),MMR015203,Chinshwehaw Sub-township (Kokang SAZ),ချင်းရွှေဟော်မြို့နယ်ခွဲ (အထူးဒေသ ၁),3,14
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D331,Mong Maw (Wa SAD),မိုင်းမော (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015301,Nam Tit,နမ့် တစ်,5,48
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D331,Mong Maw (Wa SAD),မိုင်းမော (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015302,Nar Wee (Na Wi),နာဝီး,6,64
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D331,Mong Maw (Wa SAD),မိုင်းမော (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015303,Man Tun,မန်တွန်း,10,56
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D331,Mong Maw (Wa SAD),မိုင်းမော (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015304,Kawng Min Hsang,ကောင်မင်ဆန်း,11,86
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D331,Mong Maw (Wa SAD),မိုင်းမော (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015305,Hsawng Hpa (Saun Pha),ဆောင်ဖ,11,87
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D331,Mong Maw (Wa SAD),မိုင်းမော (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015306,Hkun Mar (Hkwin Ma),ခွန်းမား,2,2
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D331,Mong Maw (Wa SAD),မိုင်းမော (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015307,Long Htan,လုံထန်,6,29
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D331,Mong Maw (Wa SAD),မိုင်းမော (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015308,Yawng Lin,ယောင်လင်း,8,38
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D331,Mong Maw (Wa SAD),မိုင်းမော (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015309,Lin Haw,လင်ဟော်,11,120
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D331,Mong Maw (Wa SAD),မိုင်းမော (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015310,Ka Lawng Hpar,ကလောင်ဖါ,9,56
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D331,Mong Maw (Wa SAD),မိုင်းမော (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015311,Aik Chan (Ai' Chun),အိုက်ချန်,10,93
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D331,Mong Maw (Wa SAD),မိုင်းမော (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015312,Yin Pang,ရင်ဖန့်,8,80
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D332,Wein Kawng (Wein Kao) (Wa SAD),ဝိန်းကောင် (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015313,Man Man Hseng,မန်မန်ဆိုင်,5,31
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D332,Wein Kawng (Wein Kao) (Wa SAD),ဝိန်းကောင် (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015314,Nawng Hkit,နောင်ခစ်,4,29
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D332,Wein Kawng (Wein Kao) (Wa SAD),ဝိန်းကောင် (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015315,Nam Hkam Wu,နမ်ခမ်းဝူး,7,80
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D332,Wein Kawng (Wein Kao) (Wa SAD),ဝိန်းကောင် (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015316,Nar Kawng,နားကောင်,4,44
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D332,Wein Kawng (Wein Kao) (Wa SAD),ဝိန်းကောင် (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015317,Pang Hkam,ပန်ခမ့်,6,68
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015D332,Wein Kawng (Wein Kao) (Wa SAD),ဝိန်းကောင် (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR015318,Pang Yang,ပန်ယန်း,4,28
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015S001,Pa Laung Self-Administered Zone,ပလောင် ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ,MMR015016,Namhsan,နမ့်ဆန်,28,146
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015S001,Pa Laung Self-Administered Zone,ပလောင် ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ,MMR015019,Manton,မန်တုံ,30,245
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015S002,Kokang Self-Administered Zone,ကိုးကန့် ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ,MMR015022,Laukkaing,လောက်ကိုင်,31,205
+MMR015,Shan (North),ရှမ်း (မြောက်),MMR015S002,Kokang Self-Administered Zone,ကိုးကန့် ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ,MMR015023,Konkyan,ကုန်းကြမ်း,27,254
+MMR016,Shan (East),ရှမ်း (အရှေ့),MMR016D001,Kengtung,ကျိုင်းတုံ,MMR016001,Kengtung,ကျိုင်းတုံ,32,658
+MMR016,Shan (East),ရှမ်း (အရှေ့),MMR016D001,Kengtung,ကျိုင်းတုံ,MMR016002,Mongkhet,မိုင်းခတ်,17,294
+MMR016,Shan (East),ရှမ်း (အရှေ့),MMR016D001,Kengtung,ကျိုင်းတုံ,MMR016003,Mongyang,မိုင်းယန်း,17,347
+MMR016,Shan (East),ရှမ်း (အရှေ့),MMR016D001,Kengtung,ကျိုင်းတုံ,MMR016005,Mongla,မိုင်းလား,10,187
+MMR016,Shan (East),ရှမ်း (အရှေ့),MMR016D001,Kengtung,ကျိုင်းတုံ,MMR016007,Mongping,မိုင်းပျဉ်း,31,819
+MMR016,Shan (East),ရှမ်း (အရှေ့),MMR016D002,Monghsat,မိုင်းဆတ်,MMR016006,Monghsat,မိုင်းဆတ်,29,545
+MMR016,Shan (East),ရှမ်း (အရှေ့),MMR016D002,Monghsat,မိုင်းဆတ်,MMR016008,Mongton,မိုင်းတုံ,20,182
+MMR016,Shan (East),ရှမ်း (အရှေ့),MMR016D003,Tachileik,တာချီလိတ်,MMR016009,Tachileik,တာချီလိတ်,16,337
+MMR016,Shan (East),ရှမ်း (အရှေ့),MMR016D003,Tachileik,တာချီလိတ်,MMR016010,Monghpyak,မိုင်းဖြတ်,20,82
+MMR016,Shan (East),ရှမ်း (အရှေ့),MMR016D003,Tachileik,တာချီလိတ်,MMR016011,Mongyawng,မိုင်းယောင်း,21,261
+MMR016,Shan (East),ရှမ်း (အရှေ့),MMR016D333,Mong Pawk (Wa SAD),မိုင်းပေါက် (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR016319,Mong Hpen,မိုင်းဖျန်,6,82
+MMR016,Shan (East),ရှမ်း (အရှေ့),MMR016D333,Mong Pawk (Wa SAD),မိုင်းပေါက် (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR016320,Ho Tawng (Ho Tao),ဟိုတောင်း,5,59
+MMR016,Shan (East),ရှမ်း (အရှေ့),MMR016D333,Mong Pawk (Wa SAD),မိုင်းပေါက် (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR016321,Mong Pawk,မိုင်းပေါက်,7,130
+MMR016,Shan (East),ရှမ်း (အရှေ့),MMR016D333,Mong Pawk (Wa SAD),မိုင်းပေါက် (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR016322,Mong Kar,မိုင်းကာ,3,29
+MMR016,Shan (East),ရှမ်း (အရှေ့),MMR016D333,Mong Pawk (Wa SAD),မိုင်းပေါက် (ဝ ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း),MMR016323,Nam Hpai,နမ့်ဖိုင်,4,52
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D001,Pathein,ပုသိမ်,MMR017001,Pathein,ပုသိမ်,57,329
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D001,Pathein,ပုသိမ်,MMR017002,Kangyidaunt,ကန်ကြီးထောင့်,74,393
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D001,Pathein,ပုသိမ်,MMR017003,Thabaung,သာပေါင်း,68,447
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D001,Pathein,ပုသိမ်,MMR017004,Ngapudaw,ငပုတော,86,449
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D001,Pathein,ပုသိမ်,MMR017005,Kyonpyaw,ကျုံပျော်,92,535
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D001,Pathein,ပုသိမ်,MMR017006,Yegyi,ရေကြည်,91,564
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D001,Pathein,ပုသိမ်,MMR017007,Kyaunggon,ကျောင်းကုန်း,66,426
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D002,Hinthada,ဟင်္သာတ,MMR017008,Hinthada,ဟင်္သာတ,106,983
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D002,Hinthada,ဟင်္သာတ,MMR017009,Zalun,ဇလွန်,67,467
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D002,Hinthada,ဟင်္သာတ,MMR017010,Lemyethna,လေးမျက်နှာ,44,293
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D002,Hinthada,ဟင်္သာတ,MMR017011,Myanaung,မြန်အောင်,61,534
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D002,Hinthada,ဟင်္သာတ,MMR017012,Kyangin,ကြံခင်း,32,266
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D002,Hinthada,ဟင်္သာတ,MMR017013,Ingapu,အင်္ဂပူ,77,687
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D003,Myaungmya,မြောင်းမြ,MMR017014,Myaungmya,မြောင်းမြ,99,554
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D003,Myaungmya,မြောင်းမြ,MMR017015,Einme,အိမ်မဲ,98,515
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D003,Myaungmya,မြောင်းမြ,MMR017017,Wakema,ဝါးခယ်မ,130,609
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D004,Labutta,လပွတ္တာ,MMR017016,Labutta,လပွတ္တာ,69,591
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D004,Labutta,လပွတ္တာ,MMR017018,Mawlamyinegyun,မော်လမြိုင်ကျွန်း,109,737
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D005,Maubin,မအူပင်,MMR017019,Maubin,မအူပင်,77,476
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D005,Maubin,မအူပင်,MMR017020,Pantanaw,ပန်းတနော်,53,456
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D005,Maubin,မအူပင်,MMR017021,Nyaungdon,ညောင်တုန်း,45,324
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D005,Maubin,မအူပင်,MMR017022,Danubyu,ဓနုဖြူ,64,469
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D006,Pyapon,ဖျာပုံ,MMR017023,Pyapon,ဖျာပုံ,54,307
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D006,Pyapon,ဖျာပုံ,MMR017024,Bogale,ဘိုကလေး,77,664
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D006,Pyapon,ဖျာပုံ,MMR017025,Kyaiklat,ကျိုက်လတ်,88,428
+MMR017,Ayeyarwady,ဧရာဝတီ,MMR017D006,Pyapon,ဖျာပုံ,MMR017026,Dedaye,ဒေးဒရဲ,91,431
+MMR018,Nay Pyi Taw,နေပြည်တော်,MMR018D001,Oke Ta Ra,ဥတ္တရ,MMR018001,Zay Yar Thi Ri,ဇေယျာသီရိ,14,72
+MMR018,Nay Pyi Taw,နေပြည်တော်,MMR018D001,Oke Ta Ra,ဥတ္တရ,MMR018003,Tatkon,တပ်ကုန်း,52,203
+MMR018,Nay Pyi Taw,နေပြည်တော်,MMR018D001,Oke Ta Ra,ဥတ္တရ,MMR018005,Poke Ba Thi Ri,ပုဗ္ဗသီရိ,19,92
+MMR018,Nay Pyi Taw,နေပြည်တော်,MMR018D001,Oke Ta Ra,ဥတ္တရ,MMR018008,Oke Ta Ra Thi Ri,ဥတ္တရသီရိ,9,58
+MMR018,Nay Pyi Taw,နေပြည်တော်,MMR018D002,Det Khi Na,ဒက္ခိဏ,MMR018002,Za Bu Thi Ri,ဇမ္ဗူသီရိ,6,32
+MMR018,Nay Pyi Taw,နေပြည်တော်,MMR018D002,Det Khi Na,ဒက္ခိဏ,MMR018004,Det Khi Na Thi Ri,ဒက္ခိဏသီရိ,9,42
+MMR018,Nay Pyi Taw,နေပြည်တော်,MMR018D002,Det Khi Na,ဒက္ခိဏ,MMR018006,Pyinmana,ပျဉ်းမနား,32,179
+MMR018,Nay Pyi Taw,နေပြည်တော်,MMR018D002,Det Khi Na,ဒက္ခိဏ,MMR018007,Lewe,လယ်ဝေး,61,295
