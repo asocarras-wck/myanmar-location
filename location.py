@@ -24,12 +24,6 @@ def calculate_distance(location1, location2):
     d_ml = radius_ml * d
     d_km = radius_km * d
     return d_ml, d_km
-
-def remove_fields(dictionary, fields_to_remove):
-    for field in fields_to_remove:
-        if field in dictionary:
-            del dictionary[field]
-    return dictionary
     
 def get_nearest_location(location):
     nearest_distance_ml = nearest_distance_km = 0
@@ -67,7 +61,19 @@ def get_nearest_location(location):
     
     print(nearest_location)
     return nearest_location
-        
+
+def convert_float(value):
+    try:
+        return float(value)        
+    except Exception:
+        return None
+ 
+def remove_fields(dictionary, fields_to_remove):
+    for field in fields_to_remove:
+        if field in dictionary:
+            del dictionary[field]
+    return dictionary
+
 def read_file(file_name = 'mimu9.4.csv'):
     # Get the current directory
     current_dir = os.getcwd()
@@ -113,15 +119,18 @@ def get_locations():
     district = request.args.get('district')
     township = request.args.get('township')
     villagetracttown = request.args.get('villagetracttown')
+    villageward = request.args.get('villageward')
     locations = read_file()
     if stateregion:
         locations = [l for l in locations if l["StateRegion"].lower() == stateregion.lower().strip()]
-    elif district:
+    if district:
         locations = [l for l in locations if l["District"].lower() == district.lower().strip()]
-    elif township:
+    if township:
         locations = [l for l in locations if l["Township"].lower() == township.lower().strip()]
-    elif villagetracttown:
+    if villagetracttown:
         locations = [l for l in locations if l["VillageTractTown"].lower() == villagetracttown.lower().strip()]
+    if villageward:
+        locations = [l for l in locations if l["VillageWard"].lower() == villageward.lower().strip()]
         
     result = slice_data(locations, request.args.get('page_number'), request.args.get('page_size'))
     if result:
@@ -194,21 +203,34 @@ def get_villagetracts():
 # Get Nearest Location in the location dataset
 @app.route('/api/locations/nearest-location', methods=['GET'])
 def nearest_location():
-    latitude = float(request.args.get('latitude'))
-    longitude = float(request.args.get('longitude'))
-    location =  get_nearest_location([latitude,longitude])
-    if location:
-        return jsonify({"NearestLocation":location})
-    else:
-        return jsonify({'message': 'Location not found.'}), 404
+    latitude = convert_float(request.args.get('latitude'))
+    longitude = convert_float(request.args.get('longitude'))
+    
+    if latitude is None:
+        return jsonify({'message': 'Please provide a valid decimal number for the latitude of the reference location.'}), 400
+    if longitude is None:
+        return jsonify({'message': 'Please provide a valid decimal number for the longitude of the reference location.'}), 400
+    try:
+        location =  get_nearest_location([latitude,longitude])
+        if location:
+            return jsonify({"NearestLocation":location})
+        else:
+            return jsonify({'message': 'Location not found.'}), 404
+    except Exception as e:
+        print(e)
+        return jsonify({'message': e}), 400
 
 # Calculate the distance between two locations
 @app.route('/api/calculate-distance', methods=['GET'])
 def get_distance():
-    latitude1 = float(request.args.get('latitude1'))
-    longitude1 = float(request.args.get('longitude1'))
-    latitude2 = float(request.args.get('latitude2'))
-    longitude2 = float(request.args.get('longitude2'))    
+    latitude1 = convert_float(request.args.get('latitude1'))
+    longitude1 = convert_float(request.args.get('longitude1'))
+    latitude2 = convert_float(request.args.get('latitude2'))
+    longitude2 = convert_float(request.args.get('longitude2'))
+    
+    if latitude1 is None or longitude1 is None or latitude2 is None or longitude2 is None:
+        return jsonify({'message': 'Please provide all coordinates, and all must be valid decimal numbers.'}), 400
+    
     try:
         distance =  calculate_distance([latitude1,longitude1], [latitude2,longitude2])
         return {"distance_in_mile": distance[0], "distance_in_km": distance[1]}
