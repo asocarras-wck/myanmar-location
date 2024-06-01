@@ -7,11 +7,11 @@
     <h2>Endpoints</h2>
     <ol>
         <li>
-            <strong>Get all locations</strong>
+            <strong>Get Locations</strong>
             <ul>
                 <li>URL: /api/locations</li>
                 <li>Method: GET</li>
-                <li>Description: Retrieves data for all village and ward-level locations.</li>
+                <li>Description: Retrieves a list of village/ward level locations.</li>
                 <li>
                     Parameters:
                     <ul>
@@ -19,6 +19,7 @@
                         <li>district (optional): Filter locations by district.</li>
                         <li>township (optional): Filter locations by township.</li>
                         <li>villagetracttown (optional): Filter locations by village tract/town.</li>
+                        <li>villageward (optional): Filter locations by village/ward.</li>
                         <li>page_number (optional): Page number for pagination (default is 1).</li>
                         <li>page_size (optional): Number of locations per page (default is 200).</li>
                     </ul>
@@ -27,7 +28,7 @@
                     Response:
                     <ul>
                         <li>200 OK: Returns a JSON object containing a list of locations.</li>
-                        <li>404 Not Found: If no locations match the specified postal code.</li>
+                        <li>404 Not Found: If no locations match the specified criteria.</li>
                     </ul>
                 </li>
             </ul>
@@ -35,7 +36,7 @@
         <li>
             <strong>Get Location by PCode (postal code)</strong>
             <ul>
-                <li>URL: /api/locations/<string:pcode></li>
+                <li>URL: /api/locations/{string:pcode}</li>
                 <li>Method: GET</li>
                 <li>Description: Retrieves location data for the specified postal code.</li>
                 <li>
@@ -127,7 +128,7 @@
             <ul>
                 <li>URL: /api/locations/villagetracttowns</li>
                 <li>Method: GET</li>
-                <li>Description: Retrieves a list of villagetracttowns.</li>
+                <li>Description: Retrieves a list of village tract/towns.</li>
                 <li>
                     Parameters:
                     <ul>
