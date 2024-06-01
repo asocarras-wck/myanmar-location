@@ -130,7 +130,7 @@ def get_locations():
     if villagetracttown:
         locations = [l for l in locations if l["VillageTractTown"].lower() == villagetracttown.lower().strip()]
     if villageward:
-        locations = [l for l in locations if l["VillageWard"].lower() == villageward.lower().strip()]
+        locations = [l for l in locations if l["LocationName"].lower() == villageward.lower().strip()]
         
     result = slice_data(locations, request.args.get('page_number'), request.args.get('page_size'))
     if result:
