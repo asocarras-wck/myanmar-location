@@ -6,6 +6,7 @@ from typing import Any
 from flask import Flask
 
 from . import RADIUS_KM, RADIUS_ML
+from . import data as _data_resources
 from ._types import Location
 
 app = Flask(__name__)
@@ -82,9 +83,9 @@ def remove_fields(dictionary, fields_to_remove):
 
 
 def read_file(file_name="mimu9.4.csv") -> list[dict[str | Any, str | Any]]:
-    with pkg_resources.open_text(
-        "myanmar_location.data", file_name, encoding="utf-8"
-    ) as file:
+    dir_path = pkg_resources.files(_data_resources)
+    file_path = dir_path / file_name
+    with file_path.open("r") as file:
         csv_reader = csv.DictReader(file)
         data = list(csv_reader)
         return data
