@@ -6,18 +6,20 @@ from typing import Any
 from flask import Flask
 
 from . import RADIUS_KM, RADIUS_ML
+from ._types import Location
 
 app = Flask(__name__)
 
-# https://en.wikipedia.org/wiki/Haversine_formula
-# haversine distance: 2*r*arcsin(sqrt(1-cos(phi2-phi1)+cosphi1*cosphi2*(1-cos(lambda2-lambda1))/2))
 
-
-def calculate_distance(location1, location2):
-    lat1 = radians(location1[0])
-    lon1 = radians(location1[1])
-    lat2 = radians(location2[0])
-    lon2 = radians(location2[1])
+def calculate_distance(location1: Location, location2: Location):
+    """
+    https://en.wikipedia.org/wiki/Haversine_formula
+    Haversine distance: 2*r*arcsin(sqrt(1-cos(phi2-phi1)+cosphi1*cosphi2*(1-cos(lambda2-lambda1))/2))
+    """
+    lat1 = radians(location1.lat)
+    lon1 = radians(location1.lon)
+    lat2 = radians(location2.lat)
+    lon2 = radians(location2.lon)
 
     d = acos(sin(lat1) * sin(lat2) + cos(lat1) * cos(lat2) * cos(lon1 - lon2))
     d_ml = RADIUS_ML * d
@@ -25,7 +27,7 @@ def calculate_distance(location1, location2):
     return d_ml, d_km
 
 
-def get_nearest_location(location):
+def get_nearest_location(location: Location):
     nearest_distance_ml = nearest_distance_km = 0
     nearest_location = None
     data = read_file()
@@ -43,7 +45,9 @@ def get_nearest_location(location):
         latitude = float(row["Latitude"])
 
         # Calculate the distance
-        distance_ml, distance_km = calculate_distance(location, [latitude, longitude])
+        distance_ml, distance_km = calculate_distance(
+            location, Location(lat=latitude, lon=longitude)
+        )
 
         # Compare the new and previous calculated distances and insert the shorter location into nearest_location.�
         if nearest_distance_ml == 0 or nearest_distance_ml > distance_ml:

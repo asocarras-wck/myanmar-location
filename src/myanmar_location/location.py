@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, request
 
+from ._types import Location
 from .utils import (
     calculate_distance,
     convert_float,
@@ -170,7 +171,7 @@ def nearest_location():
             }
         ), 400
     try:
-        location = get_nearest_location([latitude, longitude])
+        location = get_nearest_location(Location(lat=latitude, lon=longitude))
         if location:
             return jsonify({"NearestLocation": location})
         else:
@@ -201,7 +202,10 @@ def get_distance():
         ), 400
 
     try:
-        distance = calculate_distance([latitude1, longitude1], [latitude2, longitude2])
+        distance = calculate_distance(
+            location1=Location(lat=latitude1, lon=longitude1),
+            location2=Location(lat=latitude2, lon=longitude2),
+        )
         return {"distance_in_mile": distance[0], "distance_in_km": distance[1]}
     except ValueError as e:
         print(e)
