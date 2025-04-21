@@ -1,2 +1,2 @@
 include LICENSE
-recursive-include src/myanmar-location data/*.zip
+recursive-include src/myanmar-location *.zip
